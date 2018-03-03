@@ -13,30 +13,28 @@ int main() {
     cin >> Name ;
 
     int alter;
-    cout << "Wie alt bist Du " << Name << "?";
+    cout << "Wie alt bist Du " << Name << "? ";
     cin >> alter;
 
     string Farbe;
-    cout << "was ist deine lieblings Farbe?" ;
+    cout << "Was ist deine  Lieblingsfarbe? " ;
     cin >>  Farbe;
 
 
     string Haustier;
-    cout << "was ist dein lieblings Haustier ?";
+    cout << "Was ist dein Lieblingshaustier? ";
     cin >> Haustier;
 
-
-
     string lieblingsessen;
-    cout << "was ist deine lieblingsessen?";
+    cout << "Was ist deine Lieblingsessen? ";
     cin >> lieblingsessen;
 
-    cout << "Du heisst " << Name << " und bist " << alter << " Jahre alt und deine lieblings Farbe ist "<< Farbe <<
-         " .dein lieblings Haustier ist ein "<< Haustier << " dein lieblingsessen ist " << lieblingsessen ;
-
+    cout << "Du heisst " << Name << " und bist " << alter << " Jahre alt " << endl;
+    cout << "Deine Lieblingsfarbe ist "<< Farbe << endl << "und  dein Lieblingshaustier ist ein "
+         << Haustier << "." << endl;
+    cout << "Dein Lieblingsessen ist " << lieblingsessen << "." << endl ;
 
 };
-
 
 
 

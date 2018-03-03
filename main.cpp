@@ -25,11 +25,17 @@ int main() {
     cout << "was ist dein lieblings Haustier ?";
     cin >> Haustier;
 
-    cout << "Du heisst " << Name << " und bist " << alter << " Jahre alt und deine lieblings Farbe ist "<< Farbe << " .dein lieblings Haustier ist"<< Haustier;
-    
 
 
-}
+    string lieblingsessen;
+    cout << "was ist deine lieblingsessen?";
+    cin >> lieblingsessen;
+
+    cout << "Du heisst " << Name << " und bist " << alter << " Jahre alt und deine lieblings Farbe ist "<< Farbe <<
+         " .dein lieblings Haustier ist ein "<< Haustier << " dein lieblingsessen ist " << lieblingsessen ;
+
+
+};
 
 
 
